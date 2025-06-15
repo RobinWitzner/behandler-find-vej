@@ -3,11 +3,10 @@ import React from "react";
 import HeroSection from "@/components/HeroSection";
 import UserSelector from "@/components/UserSelector";
 import ExplainerCards from "@/components/ExplainerCards";
-import TherapistDirectory from "@/components/TherapistDirectory";
 
 /**
  * Behandlervalg.dk homepage –
- * Responsive, accessible, mobile-first layout.
+ * No directory listing here (moved to /terapeuter).
  */
 const Index = () => {
   return (
@@ -15,7 +14,6 @@ const Index = () => {
       <HeroSection />
       <UserSelector />
       <ExplainerCards />
-      <TherapistDirectory />
     </main>
   );
 };
